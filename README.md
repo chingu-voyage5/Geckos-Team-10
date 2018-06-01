@@ -16,6 +16,7 @@ Meditate == > a meditation app
   4. 7 min timer
     a. Quotes on timer
   5. Congratulations
+  8. About Page
   
   After meditation, the user should be rerouted to the home screen.
     - This should occur within 10-15 seconds
