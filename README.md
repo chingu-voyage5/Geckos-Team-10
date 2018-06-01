@@ -7,8 +7,8 @@ Meditate == > a meditation app
    3. Users will get a congratulations screen at the end of meditation.
 # Categories
   1. Home page
-    a. Quotes on homepage
-    b. Silhouettes of yoga poses
+    [ a. Quotes on homepage
+    b. Silhouettes of yoga poses ]
   2. 3 min timer
     a. Quotes on timer
   3. 5 min timer
