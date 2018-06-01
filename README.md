@@ -3,18 +3,18 @@ Meditate == > a meditation app
 # General Usage
   Users will be able to:
    1. Obtain information about mediation
-   2. Meditate for 3-,5- and 7-minutes
+   2. Meditate for 3, 5- and 7 minutes
    3. Users will get a congratulations screen at the end of meditation.
 # Categories
   1. Home page
     [ a. Quotes on homepage
     b. Silhouettes of yoga poses ]
   2. 3 min timer
-    a. Quotes on timer
+   [ a. Quotes on timer ]
   3. 5 min timer
-    a. Quotes on timer
+    [ a. Quotes on timer ]
   4. 7 min timer
-    a. Quotes on timer
+      [ a. Quotes on timer ]
   5. Congratulations
   8. About Page
   
@@ -29,3 +29,6 @@ Meditate == > a meditation app
   Clone Headspace (see headspace.com)
   
  # Contributors
+  Ninja A
+ Antartic Super Woman 
+ Man in a boat with a goat 
