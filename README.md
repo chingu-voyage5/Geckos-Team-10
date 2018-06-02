@@ -5,7 +5,7 @@ Meditate == > a meditation app
    1. Obtain information about mediation
    2. Meditate for 3, 5- and 7 minutes
    3. Users will get a congratulations screen at the end of meditation.
-   -*Tweet the mediation time
+   - *Tweet the mediation time
 # Categories
   1. Home page
     [ a. Quotes on homepage
