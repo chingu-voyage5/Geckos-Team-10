@@ -13,6 +13,23 @@ img{
     background-color: #c76b98;
 }
 
+.bg-dark-purple {
+    background-color: #270f36;
+}
+
+.bg-purple {
+    background-color: #632b6c;
+}
+
+.bg-peach {
+    background-color: #f09f9c;
+}
+
+.bg-beige {
+    background-color: #fcc3a3;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
