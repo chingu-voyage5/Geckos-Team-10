@@ -28,6 +28,6 @@ Meditate == > a meditation app
   Clone Headspace (see headspace.com)
   
  # Contributors
- - Ninja A
- - Antartic Super Woman 
+ - Maria Maria
+ - Antarctica Super Woman 
  - Man in a boat with a goat 
