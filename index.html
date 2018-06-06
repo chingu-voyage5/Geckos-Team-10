@@ -16,12 +16,12 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
 <link href="assets/css/Medetate.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <nav class="navbar navbar-expand-md nav-bg navbar-dark">
-      <a href="#" class="navbar-brand">Medetate</a>
+      <a href="#" class="navbar-brand">Meditate</a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,7 +34,7 @@
   </nav>
 
   <div class="container bg-purple" class= "pulldown">
-    <h3>Medetate</h3>
+    <h3>Meditate</h3>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At rerum eum maiores. Magnam magni dolor maiores sunt dicta eligendi, eius nostrum repellendus vero facere. Commodi aliquam obcaecati voluptatem dolorem voluptates?</p>
   </div>
 
@@ -45,6 +45,18 @@
   <div class="bg-dark-purple">
 
   </div>
+<!--Timer buttons temporary placeholder-->
+  <button id="btn3">
+    3 Minutes
+  </button>
+  <button id="btn5">
+    5 Minutes
+  </button>
+  <button id="btn7">
+    7 Minutes
+  </button>
+  <button class="startBtn">Start</button>
+  <div class="timer">00</div>
 
     <!-- <nav>
             <div class="topnav" id="myTopnav">
@@ -58,8 +70,10 @@
     </nav> -->
 
  <!-- Js Scripts -->
- <script
- src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="  crossorigin="anonymous"></script>
+ <script src="assets/js/timer.js"></script>
+
+ <!--script
+ src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="  crossorigin="anonymous"></script-->
 
 </body>
-</html> 
+</html>
