@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    margin: 0 auto;
+    height: 100%;
+    font-family: sans-serif;
+  }
+  div {
+    font-family: Roboto, sans-serif;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    justify-content: center;
+    background-color: #1d212b;
+  }
+  #CurrPhase {
+    display: block;
+    margin-top: 20px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #CurrTime {
+    color: rgba(255, 255, 255, 0.69);
+    line-height: 193px;
+    font-size: 135px;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+  }
+  .blackBox {
+    position: relative;
+    border-radius: 75%;
+    width: 550px;
+    height: 550px;
+    float: right;
+    display: block;
+    box-shadow: 0 0 62px -1px rgba(0, 207, 155, 0.7);
+    background-color: #000;
+  }
+  
+  a#StartButton {
+    border-color: #00cf9b;
+    color: #00cf9b;
+  }
+  #StartButton {
+    outline: 0;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 16pt;
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    transition: 0.3s;
+  }
+  
