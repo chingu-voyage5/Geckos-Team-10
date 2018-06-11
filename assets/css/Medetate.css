@@ -1,12 +1,20 @@
+/* Styles go here */
 *{
     box-sizing: border-box;
     
+}
+
+.container-fluid{
+    padding: 20px;
+    color: #f2f2f2; 
 }
 
 
 img{
     opacity: 0.3;
     filter: alpha(opacity=30); /* IE 8 and earlier */
+    display:flex;
+    justify-content: stretch;
 }
 
 .nav-bg {
@@ -62,4 +70,18 @@ img{
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
+}
+
+#div1{
+    height: 200px;
+}
+
+#div2{
+    height: 200px;
+}
+
+button{
+  background: #632b6c;  
+  color: #fcc3a3;
+  display: block;
 }
