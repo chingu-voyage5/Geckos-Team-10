@@ -20,7 +20,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
 <link href="assets/css/Meditate.css" rel="stylesheet" type="text/css">
-
+<link href="assets/css/timer.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <nav class="navbar navbar-expand-md nav-bg navbar-dark">
@@ -49,18 +49,35 @@
   </div>
 
   <div class="container-fluid bg-beige" id="div1">
-<button id="btn3" type="submit">3 minutes</button>
+    <a href="#box" class="btn">
+      <button id="btn3" class="btn" type="submit">3 minutes</button>
+    </a>
   </div>
 
   <div class="container-fluid nav-bg" id="div2">
-<button id="btn5" type="submit">5 minutes</button>
-  </div>
-    <div class="container-fluid bg-peach" id="div1">
-<button id="btn7" type="submit">7 minutes</button>
+    <a href="#box" class="btn">
+      <button id="btn5" class="btn" type="submit">5 minutes</button>
+    </a>
   </div>
 
-  <button class="startBtn">Start</button>
-  <div class="timer">00</div>
+  <div class="container-fluid bg-peach" id="div3">
+    <a href="#box" class="btn">
+      <button id="btn7" class="btn" type="submit">7 minutes</button>
+    </a>
+  </div>
+  </div>
+  <!--div class="timer">00</div-->
+
+  <div class="box" id="box">
+      <div class="blackBox">
+        <span id="CurrPhase"></span>
+        <span class="timer" id="CurrTime">0:00</span>
+        <span id="CurrPhase2"></span>
+        <button class="startBtn" id="StartButton">Start</button>
+        <!--a id="StartButton" href="#">Start</a-->
+      </div>
+    </div>
+    <div class="glow"></div>
 
     <!-- <nav>
             <div class="topnav" id="myTopnav">
