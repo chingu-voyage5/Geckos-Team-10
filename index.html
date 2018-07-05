@@ -44,32 +44,40 @@
     <h3 class="text-center">Meditate</h3>
     <img src="http://middlesextwp.com/files/fall-yoga-header.jpg" alt="" style="width:100%">
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At rerum eum maiores. Magnam magni dolor maiores sunt dicta eligendi, eius nostrum repellendus vero facere. Commodi aliquam obcaecati voluptatem dolorem voluptates?</p>
-    
+    <p>Meditation has been shown to reduce daily stress and perceived stress</p>
+
   </div>
 
   <div class="container-fluid bg-beige" id="div1">
-<button type="submit">3 minutes</button>
+    <a href="#box" class="btn">
+      <button id="btn3" class="btn" type="submit">3 minutes</button>
+    </a>
   </div>
 
   <div class="container-fluid nav-bg" id="div2">
-<button type="submit">5 minutes</button>
+    <a href="#box" class="btn">
+      <button id="btn5" class="btn" type="submit">5 minutes</button>
+    </a>
   </div>
-    <div class="container-fluid bg-peach" id="div1">
-<button type="submit">7 minutes</button>
+
+  <div class="container-fluid bg-peach" id="div3">
+    <a href="#box" class="btn">
+      <button id="btn7" class="btn" type="submit">7 minutes</button>
+    </a>
   </div>
-<!--Timer buttons temporary placeholder-->
-  <button id="btn3">
-    3 Minutes
-  </button>
-  <button id="btn5">
-    5 Minutes
-  </button>
-  <button id="btn7">
-    7 Minutes
-  </button>
-  <button class="startBtn">Start</button>
-  <div class="timer">00</div>
+  </div>
+  <!--div class="timer">00</div-->
+
+  <div class="box hide" id="box">
+      <div class="blackBox">
+        <span id="CurrPhase"></span>
+        <span class="timer" id="CurrTime">0:00</span>
+        <span id="CurrPhase2"></span>
+        <button class="startBtn" id="StartButton">Start</button>
+        <!--a id="StartButton" href="#">Start</a-->
+      </div>
+    </div>
+    <div class="glow"></div>
 
     <!-- <nav>
             <div class="topnav" id="myTopnav">
@@ -90,4 +98,3 @@
 
 </body>
 </html>
-
