@@ -44,7 +44,7 @@
     box-shadow: 0 0 62px -1px rgba(0, 207, 155, 0.7);
     background-color: #000;
   }
-  
+
   a#StartButton {
     border-color: #00cf9b;
     color: #00cf9b;
@@ -65,4 +65,7 @@
     margin: 0 auto;
     transition: 0.3s;
   }
-  
+
+.hide {
+  display: none;
+}
